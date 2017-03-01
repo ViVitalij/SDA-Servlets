@@ -18,4 +18,15 @@
         <servlet-name>PathServlet</servlet-name>
         <url-pattern>/path/*</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>pl.sda.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/users/*</url-pattern>
+    </servlet-mapping>
+
 </web-app>
